@@ -1,0 +1,8 @@
+.vscode/
+service/
+__pycache__
+*.bin
+!requirements.txt
+*.txt
+resources/lexicon/raw
+
