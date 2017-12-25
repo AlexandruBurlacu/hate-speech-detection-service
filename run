@@ -1,0 +1,2 @@
+#!/bin/sh
+gunicorn --reload -w 2 -b 0.0.0.0:8000 --timeout 60 api:__hug_wsgi__
