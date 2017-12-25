@@ -2,7 +2,7 @@
 .venv/
 __pycache__
 *.bin
-!requirements.txt
 *.txt
+!requirements.txt
 resources/lexicon/raw
 
