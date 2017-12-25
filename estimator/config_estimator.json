@@ -1,0 +1,32 @@
+{
+    "word2vec_file": "../resources/google_word2vec_model/GoogleNews-vectors-300-SLIM.bin",
+    "word2vec_limit": 500000,
+
+    "model_persistence_file": "../resources/sgd/model.bin",
+    "updated_model_persistence_file": "../resources/sgd/updated_model.bin",
+
+    "feedback_data_dir": "../resources/feedback",
+    "feedback_data_file": "new_data.csv",
+
+    "test_data_file": "test.csv",
+
+    "stop_words_file": "../resources/stop_words.txt",
+    "hate_words_file": "../resources/lexicon/clean/hate_words.txt",
+
+    "estimator": {
+        "n_iter": 10000,
+
+        "loss": "hinge",
+        "penalty": "l2",
+        "alpha": 0.0001,
+        "l1_ratio": 0.15,
+        "verbose": false,
+
+        "fit_intercept": true,
+        "epsilon": 0.1,
+        "n_jobs": 3,
+        "learning_rate": "optimal",
+        "eta0": 0.0,
+        "power_t": 0.5
+    }
+}
