@@ -4,4 +4,4 @@ __pycache__
 *.bin
 UseCase.txt
 estimator/resources/lexicon/raw/*
-estimator/resources/feedback
+estimator/resources/feedback/*
