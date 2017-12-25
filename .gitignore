@@ -2,7 +2,6 @@
 .venv/
 __pycache__
 *.bin
-*.txt
-!requirements.txt
+UseCase.txt
 resources/lexicon/raw
 
